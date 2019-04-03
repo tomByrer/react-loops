@@ -1,10 +1,6 @@
 <img align="right" src="assets/hook-and-loop.gif">
 
-# React Loops — _React Veclro Architecture_
-
-React Loops work alongside React Hooks as part of the novel _React Velcro_
-architecture for building sticky, secure user interfaces that don't come apart
-under pressure.
+# React Conditions & Loops
 
 ## Get Started with Velcro by installing React Loops!
 
@@ -143,10 +139,6 @@ has a _truthy_ value the `<Otherwise>` component is rendered instead.
 ```
 
 
-## What is _React Velcro_?
+## History
 
-Only the newest, coolest, most blazing fast React architecture out there!
-
-React Hooks has been an exciting development in the evolution of React, but it
-felt like it was only half of the story. React Loops completes the gripping
-picture by providing React's missing control-flow operators via JSX elements.
+Forked manuelbieh/react-loops which added `Choose/When/Otherwise` to leebyron/react-loops.  Lee dropped `<If />` in v1.2.0.  I liked the `<If />`, but may change the API to `<If></If>` & `Switch/Case/Default` which is more famaliar to JS-land.  Changed the project name not to confuse others, & myself ;).
